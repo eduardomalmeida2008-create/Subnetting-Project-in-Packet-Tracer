@@ -73,6 +73,7 @@ VLAN:  Logical segmented department, used to divide networks in an organized man
 Router Configuration:
 
 ![Network Logic Topology](03-Router1Config.png)
+
 In this section, the routers have been configured. The network has Router 1 and Router 2.
 
 Router 1: connected to switches 1 and 3, used for trunking on VLANs 10 and 30.
