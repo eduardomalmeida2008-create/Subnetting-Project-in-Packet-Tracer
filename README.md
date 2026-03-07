@@ -106,3 +106,8 @@ A: So that each packet/frame and data transported on the network has a correct i
 
 Why IP routing?
 A: So that a department on Router 1 can communicate with another department on Router 2, for example, to be able to communicate outside the network as well.
+
+
+Conclusion and result:
+
+![Network Logic Topology](06-TestPing.png)
