@@ -69,3 +69,6 @@ VLAN 40: MAN
 VLAN 48: WAN
 
 VLAN:  Logical segmented department, used to divide networks in an organized manner, maximizing security and organization.
+
+![Network Logic Topology](03-Router1Config.png)
+
