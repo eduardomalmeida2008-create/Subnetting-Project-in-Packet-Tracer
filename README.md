@@ -28,4 +28,5 @@ Prefix (CIDR), |   Decimal Mask     |  Jump (Third Octet) | Jump (Fourth Octet) 
     /29        |   255.255.255.248  |                     |          8          |          6              |
     /30        |   255.255.255.252  |                     |          4          |          2              |
 ```
+Switch configuration:
 ![Network Logic Topology](02-SwitchConfig.png)
