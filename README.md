@@ -31,3 +31,41 @@ Prefix (CIDR), |   Decimal Mask     |  Jump (Third Octet) | Jump (Fourth Octet) 
 Switch configuration:
 
 ![Network Logic Topology](02-SwitchConfig.png)
+
+In this section, switch 1 was configured as a demonstration. The following was configured:
+
+-VLAN
+-Access port and trunk
+
+I followed the same pattern for the other switches, configuring and creating the VLANs and access and trunk ports.
+
+
+
+Pattern used:
+````
+VLAN 10 
+name HR
+
+VLAN 20
+name finance
+
+Port pattern:
+interface fa0/1
+switchport mode access
+switchport access VLAN 10
+
+interface fa0/2
+switchport mode access
+switchport access VLAN 20
+````
+
+I applied the above pattern to all four switches on the network, configuring from VLAN 10 to VLAN 48.
+
+List of VLANs:
+VLAN 10: HR
+VLAN 20: FINANCE
+VLAN 30: LAN
+VLAN 40: MAN
+VLAN 48: WAN
+
+VLAN:  Logical segmented department, used to divide networks in an organized manner, maximizing security and organization.
