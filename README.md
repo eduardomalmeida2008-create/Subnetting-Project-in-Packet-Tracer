@@ -111,3 +111,19 @@ A: So that a department on Router 1 can communicate with another department on R
 Conclusion and result:
 
 ![Network Logic Topology](06-TestPing.png)
+
+After correctly configuring the switches and routers, we can see that the subnetting was successful.
+
+As shown in the image above, the ICMP ping test was successful for all departments, meaning that all departments and networks are connected to each other.
+
+Final result:
+- Secure network
+- Organized separation of departments
+- Subnetting working correctly
+- Minimization of logical address waste
+- Minimization of network interference.
+
+
+Creator's name: Eduardo Mello De Almeida
+Date of creation and publication: 03/07/2026
+Project status: 100% operational.
